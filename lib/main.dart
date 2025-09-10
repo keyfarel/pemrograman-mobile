@@ -1,13 +1,16 @@
+// uncomment ketika ingin menjalankan 
 // import 'pertemuan-002/week002.dart';
 import 'pertemuan-003/week003.dart';
+// import 'pertemuan-004/week004.dart';
 
 void main() {
   // Pilih week langsung di kode
   // runWeek002();
   runWeek003();
+  // runWeek004();
 }
 
-
+// uncomment ketika ingin menjalankan week 001 - week 004
 // import 'package:flutter/material.dart';
 
 // void main() {
@@ -130,4 +133,3 @@ void main() {
 //     );
 //   }
 // }
-

@@ -1,3 +1,6 @@
+/* 
+* praktikum-001
+*/
 void ifElsePrint(){
   String test = "test-2";
 
@@ -21,6 +24,9 @@ void ifElsePrint(){
   }
 }
 
+/* 
+* praktikum-002
+*/
 void printLoopWhileAndDoWhile(){
   int counter = 0;
   
@@ -38,6 +44,9 @@ void printLoopWhileAndDoWhile(){
   } while (counter < 77);
 }
 
+/* 
+* praktikum-003
+*/
 void printForLoop(){
   int index = 0;
 
@@ -50,6 +59,9 @@ void printForLoop(){
   }
 }
 
+/* 
+* tugas praktikum week-003
+*/
 void printPrima(){
   String nama = "Key Firdausi Alfarel";
   String nim = "2341720186";

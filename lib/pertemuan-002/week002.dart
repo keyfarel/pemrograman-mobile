@@ -10,6 +10,27 @@ void printText(){
   }
 }
 
+void printVariable(){
+  
+  // NULL SAFETY 
+  String? nama; // pakai '?' berarti bisa null
+  print(nama);  // Output: null
+
+  nama = "Firdausi";
+  print(nama);  // Output: Firdausi
+
+  // LATE VARIABLE 
+  late String alamat; // wajib diisi sebelum dipakai
+
+  alamat = "Malang";
+  print(alamat); // Output: Malang
+
+  // umur belum diisi, kalau di-print sekarang: ERROR
+  // late String umur;
+  // print(umur); // Output: ERROR
+}
+
 void runWeek002(){
   printText();
+  printVariable();
 }
