@@ -1,3 +1,43 @@
+// run week-004
+// Info: Comment untuk menonaktifkan fungsi yang tidak digunakan
+//       Uncomment kode yang ingin dijalankan
+void runWeek004() {
+  /*
+  * praktikum 1
+  */
+  // printListStepOne();
+  // printListStepThree();
+  
+  /*
+  * praktikum 2
+  */
+  // printSetStepOne();
+  // printSetStepThree();
+
+  /*
+  * praktikum 3
+  */
+  // printMapStepOne();
+  // printMapStepThree();
+
+  /*
+  * praktikum 4
+  */
+  // printListArgsStepTwo();
+  // printListArgsStepThree();
+  // printListArgsStepFour();
+  // printListArgsStepFive();
+  // printListArgsStepSix();
+
+  /*
+  * praktikum 5
+  */
+  // printRecordStepOne();
+  // printRecordStepThree();
+  // printRecordStepFour();
+  // printRecordStepFive();
+}
+
 /* -------------------------------------------------------------------
 *
 * praktikum-001
@@ -253,7 +293,7 @@ void printListArgsStepFour() {
 // }
 
 // Error: Undefined name 'login'
-// Build: Login Variable
+// Build: Add Login Variable
 
 void printListArgsStepFive() {
   var login = "Manager";
@@ -279,6 +319,9 @@ void printListArgsStepSix() {
   print(listOfStrings);
 }
 
+// Explain: Collection for memudahkan membuat koleksi dari hasil looping tanpa harus pakai for terpisah.
+// Output: [#0, #1, #2, #3]
+
 /* -------------------------------------------------------------------
 * 
 * praktikum-005
@@ -292,13 +335,30 @@ void printListArgsStepSix() {
 //   print(record)
 // }
 
+// Error: Expected ';' after this
+
+void printRecordStepOne(){
+  var record = ('first', a: 2, b: true, 'last');
+  print(record);
+}
+
+// Build: Add ;
+// Output: (first, last, a: 2, b: true)
+// Explain: Membuat record (gabungan nilai posisi + nama) lalu mencetaknya.
+
 // step-003
-// void printRecordStepThree() {
-//   (int, int) tukar((int, int) record) {
-//     var (a, b) = record;
-//     return (b, a);
-//   }
-// }
+void printRecordStepThree() {
+  (int, int) tukar((int, int) record) {
+    var (a, b) = record;
+    return (b, a);
+  }
+
+  var hasil = tukar((1, 2));
+  print(hasil);
+}
+
+// Output: (2, 1)
+// Explain: Membuat fungsi tukar yang menerima record (int, int) lalu menukar posisi kedua angkanya.
 
 // step-004
 // void printRecordStepFour() {
@@ -307,56 +367,148 @@ void printListArgsStepSix() {
 //   print(mahasiswa);
 // }
 
-// step-005
-// void printRecordStepFive() {
-//   var mahasiswa2 = ('first', a: 2, b: true, 'last');
+// Error: The non-nullable local variable 'mahasiswa' must be assigned before it can be used.
+// Build: Deklarasi isi variable
 
-//   print(mahasiswa2.$1); // Prints 'first'
-//   print(mahasiswa2.a); // Prints 2
-//   print(mahasiswa2.b); // Prints true
-//   print(mahasiswa2.$2); // Prints 'last'
-// }
-
-/* 
-* Tugas praktikum-001
-*/
-// soal ke-...
-
-// run week-004
-// Warn: Comment dan uncomment sesuai kebutuhan yang ingin ditampilkan
-void runWeek004() {
-  /*
-  * praktikum 1
-  */
-  // printListStepOne();
-  // printListStepThree();
-  
-  /*
-  * praktikum 2
-  */
-  // printSetStepOne();
-  // printSetStepThree();
-
-  /*
-  * praktikum 3
-  */
-  // printMapStepOne();
-  // printMapStepThree();
-
-  /*
-  * praktikum 4
-  */
-  // printListArgsStepTwo();
-  // printListArgsStepThree();
-  // printListArgsStepFour();
-  // printListArgsStepFive();
-  printListArgsStepSix();
-
-  /*
-  * praktikum 5
-  */
-  // printRecordStepOne();
-  // printRecordStepThree();
-  // printRecordStepFour();
-  // printRecordStepFive();
+void printRecordStepFour() {
+  (String, int) mahasiswa;
+  mahasiswa = ('Ani', 22);
+  print(mahasiswa); 
 }
+
+// Output: (Ani, 22)
+// Explain: Record (String, int) bernama mahasiswa, 
+//          mengisinya dengan data ('Ani', 22),
+//          lalu mencetak hasil record tersebut.
+
+// step-005
+void printRecordStepFive() {
+  var mahasiswa2 = ('first', a: 2, b: true, 'last');
+
+  print(mahasiswa2.$1); // Prints 'first'
+  print(mahasiswa2.a); // Prints 2
+  print(mahasiswa2.b); // Prints true
+  print(mahasiswa2.$2); // Prints 'last'
+}
+
+// Output: first
+//         2
+//         true
+//         last
+// Explain: Record adalaj cara untuk menyimpan beberapa nilai dalam satu variabel,
+//          bisa diakses lewat urutan ($1, $2) atau nama (a, b).
+
+
+/* -------------------------------------------------------------------
+*
+*  Tugas Praktikum-001
+*
+* -------------------------------------------------------------------
+*/
+
+// soal ke-2
+// Jelaskan yang dimaksud Functions dalam bahasa Dart!
+// Jawaban: Functions adalah sebuah blok kode yang dapat dipanggil untuk menjalankan tugas tertentu.
+
+// soal ke-3
+// Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
+// Jawaban: 1. Positional Required
+//             Wajib diisi sesuai urutan.
+//             void sapa(String nama, int umur) {}
+//
+//          2. Optional Positional []
+//             Bisa dikosongkan, default null atau diberi nilai default.
+//             void sapa(String nama, [String pesan = "Halo"]) {}
+//
+//          3. Named {}
+//             Dipanggil dengan nama, urutan tidak penting.
+//             void biodata({String? nama, int? umur}) {}
+//
+//          4. Required Named
+//             Named tapi wajib diisi (pakai required).
+//             void login({required String user, required String pass}) {}
+//
+//          5. Default Parameter
+//             Memberi nilai bawaan agar tidak null.
+//             void diskon({String kode = "NONE", int persen = 0}) {}
+
+// soal ke-4
+// Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
+// Jawaban: Functions sebagai first-class objects di Dart artinya fungsi bisa diperlakukan seperti data biasa:
+//          Disimpan di variabel
+//          Dikirim sebagai parameter
+//          Dikembalikan dari fungsi lain
+//          Contoh singkat:
+//          void main() {
+//            var sayHello = () => print("Hello"); // simpan fungsi
+//            sayHello();
+//            doSomething(() => print("Hai")); // kirim fungsi
+//          }
+//          
+//          void doSomething(Function f) {
+//          f();
+//          }
+
+// soal ke-5
+// Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
+// Jawaban:   Anonymous Function adalah fungsi tanpa nama, biasanya digunakan untuk kebutuhan sekali pakai 
+//            atau sering dipakai sebagai argumen fungsi lain.
+//
+//            Contoh sintaks:
+//
+//            var list = [1, 2, 3];
+//            list.forEach((n) {
+//              print(n);   // setiap elemen list dicetak
+//            });
+
+
+// soal ke-6
+// Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
+// Jawaban:   Lexical Scope adalah sebuah konsep yang menyatakan bahwa variabel hanya bisa diakses 
+//            sesuai dengan posisi (scope) tempat variabel tersebut dideklarasikan.
+//
+//            Contoh sintaks:
+//
+//            void main() {
+//              var x = 10;
+//              void showX() => print(x);   // bisa akses variabel x dari scope luar
+//              showX();                    // output: 10
+//            }
+//
+//            ----------------------------------------------------------
+//
+//            Lexical Closure adalah fungsi yang tetap "mengingat" variabel dari scope luar,
+//            meskipun scope asalnya sudah selesai dieksekusi.
+//
+//            Contoh sintaks:
+//
+//            Function counter() {
+//              var c = 0;
+//              return () => ++c;           // closure mengingat variabel c
+//            }
+//
+//            void main() {
+//              var inc = counter();
+//              print(inc());               // 1
+//              print(inc());               // 2
+//            }
+
+// soal ke-7
+// Jelaskan dengan contoh cara membuat return multiple value di Functions!
+// Jawaban:   1. List return dalam bentuk urutan nilai.
+//               Contoh sintaks:
+//               List<int> hitung(int a, int b) => [a + b, a - b];
+//
+//            2. Map → return nilai dengan label (key-value).
+//               Contoh sintaks:
+//               Map<String, int> hitung(int a, int b) => {
+//                 "tambah": a + b,
+//                 "kurang": a - b
+//               };
+//
+//            3. Record (fitur Dart 3) → return dengan tipe yang lebih jelas dan bisa diberi nama.
+//               Contoh sintaks:
+//               (String, int) getData() => ("Ani", 22);
+//
+//               // Atau dengan named record
+//               ({String nama, int umur}) getData() => (nama: "Ani", umur: 22);
