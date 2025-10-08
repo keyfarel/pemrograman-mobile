@@ -30,28 +30,21 @@
 ---
 <p align="left"><b>praktikum-05 langkah 01</b></p>
 
-<!-- kode -->
-<p align="left"><b>Kode</b></p>
-
----
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="flex: 1 0 45%; text-align: center;">
-     <img src="assets/docs/praktikum-05/step-01/loading-code.jpg" alt="Kode Teks Widget" width="100%">
-  </div>
-</div>
-
-<!-- output -->
-<p align="left"><b>Output</b></p>
-
----
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="flex: 1 0 45%; text-align: center;">
-    <img src="assets/docs/praktikum-05/step-01/loading-output-1.jpg" alt="Kode Teks Widget" width="100%">
-  </div>
-  <div style="flex: 1 0 45%; text-align: center;">
-    <img src="assets/docs/praktikum-05/step-01/loading-output-2.jpg" alt="Kode Teks Widget" width="100%">
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center"><b>Kode</b></td>
+    <td align="center"><b>Output</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/docs/praktikum-05/step-01/loading-code.jpg" alt="Kode" width="500">
+    </td>
+    <td>
+      <img src="assets/docs/praktikum-05/step-01/loading-output-1.jpg" alt="Output 1" width="350"><br>
+      <img src="assets/docs/praktikum-05/step-01/loading-output-2.jpg" alt="Output 2" width="350">
+    </td>
+  </tr>
+</table>
 
 <!-- praktikum 5.2 -->
 ---
@@ -63,14 +56,14 @@
     <td align="center"><b>Output</b></td>
   </tr>
   <tr>
-    <td><img src="assets/docs/praktikum-05/step-02/floating-code.jpg" alt="Kode Teks Widget" width="500"></td>
-    <td><img src="assets/docs/praktikum-05/step-02/floating-output.jpg" alt="Output Teks Widget" width="350"></td>
+    <td><img src="assets/docs/praktikum-05/step-02/floating-code.jpg" alt="Kode" width="500"></td>
+    <td><img src="assets/docs/praktikum-05/step-02/floating-output.jpg" alt="Output" width="350"></td>
   </tr>
 </table>
 
 <!-- praktikum 5.3 -->
 ---
-<p align="left"><b>praktikum-05 langkah 02</b></p>
+<p align="left"><b>praktikum-05 langkah 03</b></p>
 
 <table>
   <tr>
@@ -78,8 +71,8 @@
     <td align="center"><b>Output</b></td>
   </tr>
   <tr>
-    <td><img src="assets/docs/praktikum-05/step-03/floating-code.jpg" alt="Kode Teks Widget" width="500"></td>
-    <td><img src="assets/docs/praktikum-05/step-03/floating-output.jpg" alt="Output Teks Widget" width="350"></td>
+    <td><img src="assets/docs/praktikum-05/step-03/floating-code.jpg" alt="Kode" width="500"></td>
+    <td><img src="assets/docs/praktikum-05/step-03/floating-output.jpg" alt="Output" width="350"></td>
   </tr>
 </table>
 
@@ -87,28 +80,21 @@
 ---
 <p align="left"><b>praktikum-05 langkah 04</b></p>
 
-<!-- kode -->
-<p align="left"><b>Kode</b></p>
-
----
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="flex: 1 0 45%; text-align: center;">
-     <img src="assets/docs/praktikum-05/step-04/allert-code.jpg" alt="Kode Teks Widget" width="100%">
-  </div>
-</div>
-
-<!-- output -->
-<p align="left"><b>Output</b></p>
-
----
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="flex: 1 0 45%; text-align: center;">
-    <img src="assets/docs/praktikum-05/step-04/allert-output-1.jpg" alt="Kode Teks Widget" width="100%">
-  </div>
-  <div style="flex: 1 0 45%; text-align: center;">
-    <img src="assets/docs/praktikum-05/step-04/allert-output-2.jpg" alt="Kode Teks Widget" width="100%">
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center"><b>Kode</b></td>
+    <td align="center"><b>Output</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/docs/praktikum-05/step-04/allert-code.jpg" alt="Kode" width="500">
+    </td>
+    <td>
+      <img src="assets/docs/praktikum-05/step-04/allert-output-1.jpg" alt="Output 1" width="350"><br>
+      <img src="assets/docs/praktikum-05/step-04/allert-output-2.jpg" alt="Output 2" width="350">
+    </td>
+  </tr>
+</table>
 
 <!-- praktikum 5.5 -->
 ---
@@ -120,8 +106,8 @@
     <td align="center"><b>Output</b></td>
   </tr>
   <tr>
-    <td><img src="assets/docs/praktikum-05/step-05/textfield-code.jpg" alt="Kode Teks Widget" width="500"></td>
-    <td><img src="assets/docs/praktikum-05/step-05/textfield-output.jpg" alt="Output Teks Widget" width="350"></td>
+    <td><img src="assets/docs/praktikum-05/step-05/textfield-code.jpg" alt="Kode" width="500"></td>
+    <td><img src="assets/docs/praktikum-05/step-05/textfield-output.jpg" alt="Output" width="350"></td>
   </tr>
 </table>
 
@@ -129,25 +115,18 @@
 ---
 <p align="left"><b>praktikum-05 langkah 06</b></p>
 
-<!-- kode -->
-<p align="left"><b>Kode</b></p>
-
----
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="flex: 1 0 45%; text-align: center;">
-     <img src="assets/docs/praktikum-05/step-06/date-code.jpg" alt="Kode Teks Widget" width="100%">
-  </div>
-</div>
-
-<!-- output -->
-<p align="left"><b>Output</b></p>
-
----
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="flex: 1 0 45%; text-align: center;">
-    <img src="assets/docs/praktikum-05/step-06/date-output-1.jpg" alt="Kode Teks Widget" width="100%">
-  </div>
-  <div style="flex: 1 0 45%; text-align: center;">
-    <img src="assets/docs/praktikum-05/step-06/date-output-2.jpg" alt="Kode Teks Widget" width="100%">
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center"><b>Kode</b></td>
+    <td align="center"><b>Output</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/docs/praktikum-05/step-06/date-code.jpg" alt="Kode" width="500">
+    </td>
+    <td>
+      <img src="assets/docs/praktikum-05/step-06/date-output-1.jpg" alt="Output 1" width="350"><br>
+      <img src="assets/docs/praktikum-05/step-06/date-output-2.jpg" alt="Output 2" width="350">
+    </td>
+  </tr>
+</table>
