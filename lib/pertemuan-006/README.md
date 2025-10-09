@@ -97,13 +97,17 @@
     <td align="center"><b>Output</b></td>
   </tr>
   <tr>
-    <td><img src="assets/docs/praktikum-006/shop-output-1.png" alt="Kode Teks Widget" width="350"></td>
-    <td><img src="assets/docs/praktikum-006/shop-output-2.png" alt="Output Teks Widget" width="350"></td>
+    <td>
+      <img src="assets/docs/praktikum-006/shop-code.png" alt="Kode" width="500">
+    </td>
+    <td>
+      <img src="assets/docs/praktikum-006/shop-output-1.png" alt="Output 1" width="350"><br>
+      <img src="assets/docs/praktikum-006/shop-output-2.png" alt="Output 2" width="350">
+    </td>
   </tr>
 </table>
 
 <!-- tugas praktikum 2 -->
-<!-- praktikum 5.1 -->
 ---
 <p align="left"><b>tugas praktikum-02</b></p>
 
