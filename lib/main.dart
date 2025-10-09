@@ -5,11 +5,12 @@
 // import 'pertemuan-002/week002.dart';
 // import 'pertemuan-003/week003.dart';
 // import 'pertemuan-004/week004.dart';
-import 'pertemuan-005/week005.dart';
+import 'pertemuan-006/week006.dart';
 
 void main() {
   // runWeek002();
   // runWeek003();
   // runWeek004();
-  runWeek005();
+  // runWeek005();
+  runWeek006();
 }
